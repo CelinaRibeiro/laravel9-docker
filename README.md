@@ -1,11 +1,10 @@
 
 # Setup Docker Para Projetos Laravel
-[Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
 
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/especializati/setup-docker-laravel.git my-project
+git clone https://github.com/CelinaRibeiro/laravel9-docker.git my-project
 ```
 ```sh
 cd my-project/
@@ -14,7 +13,7 @@ cd my-project/
 
 Alterne para a branch laravel 9.x
 ```sh
-git checkout laravel-9-com-php-8
+git checkout laravel9-docker
 ```
 
 
@@ -32,13 +31,13 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME="Especializa Ti"
+APP_NAME="Laravel Docker"
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=nome_que_desejar_db
+DB_DATABASE=nome_db
 DB_USERNAME=root
 DB_PASSWORD=root
 
